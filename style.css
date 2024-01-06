@@ -12,17 +12,16 @@ header {
   height: 808px;
 }
 .header-content {
-  padding: 216px 230px 0px 805px;
+  padding: 216px 150px 0px 805px;
   text-align: right;
 }
-header > h1 {
+header h1 {
   color: #151414;
-  font-size: 65px;
+  font-size: 35px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
 }
-header > p {
+header p {
   color: #444343;
   font-size: 16px;
   font-style: normal;
@@ -38,6 +37,30 @@ header button {
 }
 
 /* main realeted style */
+
 .section-1 {
+  padding: 80px 0 50px 180px;
+  display: flex;
+}
+.section-1-content {
+  padding: 280px 0 0 0;
+}
+.section-1-title {
+  padding: 0px 250px 0 20px;
+}
+.section-1-text {
+  padding: 0px 250px 0 20px;
+  color: #444343;
+}
+.section-1-check {
+  padding: 0px 0px 0 20px;
+  color: #444343;
+}
+.fa-check {
+  color: green;
+}
+
+.section-2-title {
+  text-align: center;
 }
 /* footer realeted style */
